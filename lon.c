@@ -11,13 +11,13 @@
             if ( year%400 == 0)
                 printf("yes", year);
             else
-                printf("", year);
+                printf("no", year);
         }
         else
             printf("yes", year );
     }
     else
-        printf("yes", year);
+        printf("no", year);
     
     return 0;
 }
